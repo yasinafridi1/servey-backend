@@ -4,7 +4,7 @@ const cors = require("cors");
 const User = require("./models/User");
 const { getLevelUrl } = require("./Utils/userutil");
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT;
 
 const corsOption = {
   origin: "http://localhost:3000",
